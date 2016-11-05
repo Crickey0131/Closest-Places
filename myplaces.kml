@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Tuscany</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282,34.017</coordinates></Point>
+</Placemark>
+<Placemark><name>Science Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286,34.016</coordinates></Point>
+</Placemark>
+<Placemark><name>Coliseum</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288,34.015</coordinates></Point>
+</Placemark>
+<Placemark><name>Galon Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280,34.021</coordinates></Point>
+</Placemark>
+<Placemark><name>Starbucks</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282,34.019</coordinates></Point>
+</Placemark>
+<Placemark><name>LVL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283,34.022</coordinates></Point>
+</Placemark>
+<Placemark><name>Bookstore</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286,34.021</coordinates></Point>
+</Placemark>
+<Placemark><name>SSL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289,34.02</coordinates></Point>
+</Placemark>
+<Placemark><name>Lyon Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288,34.025</coordinates></Point>
+</Placemark>
+<Placemark>
+ <name>The Pentagon</name>
+ <Polygon>
+ <extrude>1</extrude>
+ <altitudeMode>relativeToGround</altitudeMode>
+ <outerBoundaryIs>
+ <LinearRing>
+ <coordinates>
+ -118.288,34.015,10 
+ -118.289,34.02,10 
+ -118.288,34.025,10 
+ -118.28,34.021,10 
+ -118.282,34.017,10 
+ -118.288,34.015,10
+ </coordinates>
+ </LinearRing>
+ </outerBoundaryIs>
+ </Polygon>
+</Placemark>
+
+
+
+<Placemark>
+  <Style>
+    <LineStyle>
+      <color> ff235523 </color>
+    </LineStyle>
+  </Style>
+ <LineString>
+ <extrude>1</extrude>
+ <tessellate>1</tessellate>
+ <altitudeMode> relativeToGround </altitudeMode>
+ <coordinates> -118.282,34.017,11
+ -118.282,34.019,11
+ </coordinates>
+ </LineString>
+</Placemark>
+
+<Placemark>
+  <Style>
+    <LineStyle>
+      <color> ff235523 </color>
+    </LineStyle>
+  </Style>
+ <LineString>
+ <extrude>1</extrude>
+ <tessellate>1</tessellate>
+ <altitudeMode> relativeToGround </altitudeMode>
+ <coordinates> -118.282,34.017,11
+ -118.286,34.016,11
+ </coordinates>
+ </LineString>
+</Placemark>
+
+<Placemark>
+  <Style>
+    <LineStyle>
+      <color> ff235523 </color>
+    </LineStyle>
+  </Style>
+ <LineString>
+ <extrude>1</extrude>
+ <tessellate>1</tessellate>
+ <altitudeMode> relativeToGround </altitudeMode>
+ <coordinates> -118.282,34.017,11
+ -118.280,34.021,11
+ </coordinates>
+ </LineString>
+</Placemark>
+</Document></kml>
